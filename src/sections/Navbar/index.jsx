@@ -13,6 +13,7 @@ import "./style.css";
 import Button from "../../components/Button";
 import useScrollClientY from "../../hooks/useScrollClientY";
 import { CloseIcon, CloudIcon } from "../../components/Icons";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   const scrollClientY = useScrollClientY();
@@ -50,24 +51,27 @@ function Header(props) {
               <Nav navbar className="ms-auto me-0 navbar__nav nav__list__main" >
                 <div className="d-flex d-md-none close__icon" onClick={() => setCollapsed(!collapsed)}><CloseIcon/></div>
                 <NavItem>
-                  <NavLink
+                  {/* <NavLink
                     className={`nav__items ${
                       scrollClientY > 200 && "text-black"
                     } active__cls`}
                     href="/"
                   >
                     Home
-                  </NavLink>
+                  </NavLink> */}
+                  <Link to="/">Home</Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink
+                  {/* <NavLink
                     className={`nav__items ${
                       scrollClientY > 200 && "text-black"
                     }`}
                     href="/about"
                   >
                     About
-                  </NavLink>
+                  </NavLink> */}
+                  
+                  <Link to="/about">about</Link>
                 </NavItem>
                 <NavItem>
                   <NavLink
