@@ -109,3 +109,6 @@ a {
     justify-content: center;
   }
 }
+.nav__active__link {
+  color: #3aa9ea;
+}
