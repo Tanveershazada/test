@@ -123,14 +123,14 @@ const MessageSection = () => {
                 </div>
                 <div className="col-12">
                 {errMsg && (
-                <p className="pt-3 bg-gradient-to-r err__msg">{errMsg}</p>
+                <p className="bg-gradient-to-r err__msg">{errMsg}</p>
                   )}
                    {successMsg && (
                     <p>{successMsg}</p>
                  )}
                   <Button
                     onClick={handleSend}
-                    className="btn__primary mt-3 w-100 "
+                    className="btn__primary mt-3 w-100 message__global"
                   >
                     SEND MESSAGE
                   </Button>

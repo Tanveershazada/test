@@ -52,8 +52,12 @@
  }
  
  .aboutValue__title{
+    position: relative;
+    top: -171px;
+    display: flex;
+    justify-content: space-around;
     background-color: #253499;
-    padding: 3em 3em 3em 3em;
+    padding: 4em 4em 4em 4em;
     min-height: 100%;
  }
  .aboutvalue-one h2{
@@ -84,6 +88,13 @@
     }
     .AboutValueImg{
         margin-top: 0;
+    }
+
+    .aboutValue__title{
+        display: flex;
+        flex-direction: column;
+        top: 10px;
+    
     }
 
 }

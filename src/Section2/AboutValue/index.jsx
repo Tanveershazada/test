@@ -15,7 +15,7 @@ const AboutValueSection = () => {
               <div className="row">
                 <div className="col-12 col-md-12 mb-5">
                   <div className="aboutValue__title">
-                    <div className="aboutvalue-one">
+                    <div className="aboutvalue-one ">
                       <h2>Are you ready to jump-start your career?</h2>
                       <span>
                         "Ready to propel your career forward? Unlock new
