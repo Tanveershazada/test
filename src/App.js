@@ -9,7 +9,7 @@ import About from "./pages/about";
 import Price from "./pages/Price";
 import Header from "./sections/Navbar";
 import Contact from "./pages/contact";
-import Signup from "./sections/Signup"
+import Signup from "./sections/Signup";
 
 
 
