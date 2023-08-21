@@ -75,7 +75,7 @@ function Header(props) {
                   <NavItem key={item.name} onClick={() => handleActiveLink(item.link)}>
                     <Link
                       className={`nav__items ${
-                        scrollClientY > 200 && "text-black"
+                        scrollClientY > 200 && "text-black "
                       } ${active == item.link && 'nav__active__link'}`}
                       to={item.link}
                       onClick={() => setCollapsed(!collapsed)}

@@ -21,7 +21,7 @@ const Career = () => {
                 desc="Discover a dynamic hub where ideas converge and transform into innovative strategies. Experience seamless collaboration, fueling your brand's journey to success."
               />
 
-              <div className="career__main">
+              <div className="career__main ">
                 <div className="career__upper">
                 <ScrollTrigger
                   onEnter={() => setCounterOn(true)}

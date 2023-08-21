@@ -46,51 +46,69 @@ const Package = () => {
                 <FiletextIcon className="layer__icon" />
               </div>
               <div className="package__card-title">
-                <h2>Basic Digital Boost</h2>
+                <h2>Package 1 </h2>
               </div>
               <div className="package__card-des">
-                <p>
-                Elevate your online presence with our <br /> essential digital boost package.
-                </p>
+               
               </div>
               <div className="package__number">
                 <span className="p__dollar">$</span>
-                <span className="p__number">49</span>
+                <span className="p__number">399</span>
                 <h6 className="p__month">/MONTHLY</h6>
                 <span className="package__border-bottom"></span>
               </div>
 
-              <span className="p__top-title">Includes :</span>
+              <span className="p__top-title">Include :</span>
               <div className="package__card-research">
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Website Analysis</span>
+                  <span>2 Social Platforms  </span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>On-Page SEO Optimization</span>
+                  <span>15 Posts Per Month </span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Ad Copies</span>
                 </div>
 
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Social Media Management</span>
+                  <span>Page Monitoring</span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Keyword Research</span>
+                  <span>Basic Ad Campaigns</span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Monthly Performance Reporting</span>
+                  <span>Post Designs</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Account Manager</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Content Creation</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Stock Photos</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>No setup cost</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Monthly Consultation</span>
                 </div>
                 <div className="pacage__last">
                   <Button className="btn__primary mt-3 package__button">
                     GET STARTED
                   </Button>
-                  <span>
-                    14 Day Free Trial • Cancel Anytime • No Credit Card <br />{" "}
-                    Required
-                  </span>
                 </div>
               </div>
             </div>
@@ -102,16 +120,13 @@ const Package = () => {
                 <LayerIcon className="layer__icon" />
               </div>
               <div className="package__card-title">
-                <h2>Advanced Digital Growth</h2>
+                <h2>Package 2 </h2>
               </div>
               <div className="package__card-des">
-                <p>
-                Experience exponential online expansion through  <br />  our advanced digital growth strategies.
-                </p>
               </div>
               <div className="package__number">
                 <span className="p__dollar">$</span>
-                <span className="p__number">99</span>
+                <span className="p__number">799</span>
                 <h6 className="p__month">/MONTHLY</h6>
                 <span className="package__border-bottom"></span>
               </div>
@@ -120,24 +135,48 @@ const Package = () => {
               <div className="package__card-research">
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Digital Marketing Strategy</span>
+                  <span>4 Social Platforms</span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Comprehensive SEO Optimization</span>
+                  <span>20 Posts Per Month </span>
                 </div>
 
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Digital Advertising Campaigns</span>
+                  <span>Ad Copies</span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>High-Quality Content Creation</span>
+                  <span>Page Monitoring </span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Monthly Performance Reporting</span>
+                  <span>Basic Ad Campaigns</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Post Designs</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Account Manager </span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Content Creation</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Stock Photos</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>No setup cost</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Monthly Consultation</span>
                 </div>
                 <div className="pacage__last">
                   <Button className="btn__primary mt-3 package__button">
@@ -158,16 +197,13 @@ const Package = () => {
                 <SliderIcon className="layer__icon" />
               </div>
               <div className="package__card-title">
-                <h2>Pro Digital Domination</h2>
+                <h2>Package 3</h2>
               </div>
               <div className="package__card-des">
-                <p>
-                Master your online domain with our expert Pro <br /> Digital Domination services.
-                </p>
               </div>
               <div className="package__number">
                 <span className="p__dollar">$</span>
-                <span className="p__number">299</span>
+                <span className="p__number">799</span>
                 <h6 className="p__month">/MONTHLY</h6>
                 <span className="package__border-bottom"></span>
               </div>
@@ -176,24 +212,48 @@ const Package = () => {
               <div className="package__card-research">
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Market and Competitor Research</span>
+                  <span>Call for price</span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Multichannel Campaign Management</span>
+                  <span>Up to 9 social platforms</span>
                 </div>
 
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Personalized User Experience</span>
+                  <span>15 Posts Per Month </span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Digital Infrastructure Development</span>
+                  <span>Ad Copies</span>
                 </div>
                 <div className="package__card-first">
                   <TickIcon className="package__tick" />
-                  <span>Advanced Consultation and Training</span>
+                  <span>Page Monitoring </span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Basic Ad Campaigns </span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Post Designs</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Account Manager  </span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Content Creation </span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Stock Photos</span>
+                </div>
+                <div className="package__card-first">
+                  <TickIcon className="package__tick" />
+                  <span>Monthly Consultation</span>
                 </div>
                 <div className="pacage__last">
                   <Button className="btn__primary mt-3 package__button">
