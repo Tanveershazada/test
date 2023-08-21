@@ -182,7 +182,6 @@ const Package = () => {
                   <Button className="btn__primary mt-3 package__button">
                     GET STARTED
                   </Button>
-                 
                 </div>
               </div>
             </div>
