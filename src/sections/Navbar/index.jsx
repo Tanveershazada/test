@@ -78,6 +78,7 @@ function Header(props) {
                         scrollClientY > 200 && "text-black"
                       } ${active == item.link && 'nav__active__link'}`}
                       to={item.link}
+                      onClick={() => setCollapsed(!collapsed)}
                     >
                       {item.name}
                     </Link>
