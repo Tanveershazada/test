@@ -26,15 +26,15 @@ const MessageSection = () => {
   const handleSend = (e) => {
     e.preventDefault();
     if (name === "") {
-      setErrMsg("name is required!");
+      setErrMsg("Name is required!");
     } else if (company === "") {
       setErrMsg("Please give your Company!");
     } else if (phone === "") {
-      setErrMsg("phone is required!");
+      setErrMsg("Phone is required!");
     }else if (email === "") {
       setErrMsg("Please give your Email!");
     }  else if (!emailValidation(email)) {
-      setErrMsg("give a valid Email!");
+      setErrMsg("Give a valid Email!");
     } else if (Subject === "") {
       setErrMsg("Please give your Subject!");
     } else if (message === "") {
