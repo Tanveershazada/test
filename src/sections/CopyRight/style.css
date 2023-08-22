@@ -39,6 +39,16 @@
     text-decoration: none;
 }
 
+.copy__line{
+    border-right: 1px solid #3aa9ea;
+    padding: 0 5px;
+   cursor: pointer;
+}
+
+.copy__line:hover{
+    color: #3146CB;
+}
+
 
 @media (max-width: 768px) {
     

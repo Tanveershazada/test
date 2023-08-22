@@ -126,7 +126,7 @@ const Package = () => {
               </div>
               <div className="package__number">
                 <span className="p__dollar">$</span>
-                <span className="p__number">799</span>
+                <span className="p__number">699</span>
                 <h6 className="p__month">/MONTHLY</h6>
                 <span className="package__border-bottom"></span>
               </div>
@@ -198,9 +198,7 @@ const Package = () => {
               <div className="package__card-des">
               </div>
               <div className="package__number">
-                <span className="p__dollar">$</span>
-                <span className="p__number">799</span>
-                <h6 className="p__month">/MONTHLY</h6>
+                <span className="pack__double">Call For Price</span>
                 <span className="package__border-bottom"></span>
               </div>
 

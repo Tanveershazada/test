@@ -2,6 +2,7 @@ import React from 'react'
 import "./style.css";
 import Heading from '../../components/Heading'
 
+
 const AboutSection = () => {
   return (
           <div className="About__section">

@@ -91,6 +91,14 @@
     line-height: 1em;
     letter-spacing: -1.5px;
 }
+
+.pack__double{
+    color: #3146cb;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: -1.5px;
+}
 .p__dollar{
     color: #3146cb;
     font-size: 37px;
