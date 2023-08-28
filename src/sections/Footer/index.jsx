@@ -30,7 +30,7 @@ const FooterSection = () => {
                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FacebookIcon /></a>
                  <a href="https://www.instagram.com/socialignitestudio/" target="_blank" rel="noopener noreferrer"><InstagramIcon /></a>
                  <a href="https://twitter.com/home?lang=en" target="_blank" rel="noopener noreferrer"> <TwitterIcon /></a>
-                 <a href="https://twitter.com/home?lang=en" target="_blank" rel="noopener noreferrer"> <LinkedinIcon /> </a>
+                 <a href="https://www.linkedin.com/company/social-ignite-studio/"> <LinkedinIcon /> </a>
                  
                   
                 </div>
