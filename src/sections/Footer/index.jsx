@@ -9,6 +9,7 @@ import {
 } from "../../components/Icons";
 
 const FooterSection = () => {
+  const facebookUrl = 'YOUR_FACEBOOK_URL';
   return (
     <div className="Footer__container">
       <div className="Footer-wrapper">
@@ -26,10 +27,12 @@ const FooterSection = () => {
                 Welcome to Social Ignite Studio, <br /> where creativity meets strategy, fueling <br /> your brand's fire and igniting social <br />success
                 </p>
                 <div className="Footer__icon">
-                  <FacebookIcon />
-                  <InstagramIcon />
-                  <TwitterIcon />
-                  <LinkedinIcon />
+                 <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FacebookIcon /></a>
+                 <a href="https://www.instagram.com/socialignitestudio/" target="_blank" rel="noopener noreferrer"><InstagramIcon /></a>
+                 <a href="https://twitter.com/home?lang=en" target="_blank" rel="noopener noreferrer"> <TwitterIcon /></a>
+                 <a href="https://twitter.com/home?lang=en" target="_blank" rel="noopener noreferrer"> <LinkedinIcon /> </a>
+                 
+                  
                 </div>
               </div>
             </div>
