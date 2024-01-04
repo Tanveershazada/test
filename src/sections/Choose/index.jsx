@@ -60,7 +60,8 @@ const ChooseSection = () => {
           </div>
           <div
             className="col-12 col-md-8"
-            data-aos="flip-left"
+            // data-aos="flip-left"
+            data-aos="zoom-in"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
@@ -108,28 +109,30 @@ const ChooseSection = () => {
                 <p>Marketing Expert</p>
               </div>
               <div className="Choose__main-hyper">
-              <ScrollTrigger
+                <ScrollTrigger
                   onEnter={() => setCounterOn(true)}
                   onExit={() => setCounterOn(false)}
                 >
-                <h1>
-                {counterOn && (
+                  <h1>
+                    {counterOn && (
                       <CountUp start={0} end={300} duration={2} delay={0} />
                     )}
-                  +</h1>
+                    +
+                  </h1>
                 </ScrollTrigger>
                 <p>Leads Generated</p>
               </div>
               <div className="Choose__main-hyper">
-              <ScrollTrigger
+                <ScrollTrigger
                   onEnter={() => setCounterOn(true)}
                   onExit={() => setCounterOn(false)}
                 >
-                <h1>
-                {counterOn && (
+                  <h1>
+                    {counterOn && (
                       <CountUp start={0} end={600} duration={2} delay={0} />
                     )}
-                 +</h1>
+                    +
+                  </h1>
                 </ScrollTrigger>
                 <p>Reveneu Driven</p>
               </div>
